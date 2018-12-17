@@ -20,7 +20,7 @@ int main()
 	while(t--){
 	    long num;
 	    cin>>num;
-	    long original = num;
+		
 	    long sum =0;
 	    long power = 0;
 	    
