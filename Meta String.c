@@ -23,7 +23,6 @@ int getPrint(char * array, char * aux){
 int main() {
 	int t;
 	scanf("%i",&t);
-	
 	while(t--){
 	    char array[SIZE] = {0};
 	    char aux[SIZE] = {0};
