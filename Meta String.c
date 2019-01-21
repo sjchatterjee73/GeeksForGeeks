@@ -18,10 +18,6 @@ int getPrint(char * array, char * aux){
         if(array[i] != aux[i])
             count++;
     }
-    
-    if(count == 0)
-        return 0;
-    
     return (count == 2 || count == 1) ? 1: 0;
 }
 int main() {
